@@ -1,0 +1,58 @@
+[
+  {
+    "lambda_sparse": 0.0,
+    "best_epoch": 20,
+    "best_hard_test_accuracy": 54.78,
+    "soft_test_accuracy": 54.55,
+    "hard_test_accuracy": 54.78,
+    "sparsity_level": 7.787270865834634,
+    "mean_gate": 0.4316205084323883,
+    "pruned_gates": 63893,
+    "total_gates": 820480,
+    "checkpoint_path": "/content/self_pruning_outputs/model_lambda_0.pt",
+    "history_path": "/content/self_pruning_outputs/history_lambda_0.csv",
+    "gate_histogram_path": "/content/self_pruning_outputs/gate_hist_lambda_0.png"
+  },
+  {
+    "lambda_sparse": 0.0001,
+    "best_epoch": 2,
+    "best_hard_test_accuracy": 29.49,
+    "soft_test_accuracy": 49.4,
+    "hard_test_accuracy": 24.79,
+    "sparsity_level": 99.28151813572543,
+    "mean_gate": 0.0009576102602295578,
+    "pruned_gates": 814585,
+    "total_gates": 820480,
+    "checkpoint_path": "/content/self_pruning_outputs/model_lambda_1e-04.pt",
+    "history_path": "/content/self_pruning_outputs/history_lambda_1e-04.csv",
+    "gate_histogram_path": "/content/self_pruning_outputs/gate_hist_lambda_1e-04.png"
+  },
+  {
+    "lambda_sparse": 0.0002,
+    "best_epoch": 4,
+    "best_hard_test_accuracy": 30.32,
+    "soft_test_accuracy": 51.12,
+    "hard_test_accuracy": 25.16,
+    "sparsity_level": 99.50358326833073,
+    "mean_gate": 0.0005074795335531235,
+    "pruned_gates": 816407,
+    "total_gates": 820480,
+    "checkpoint_path": "/content/self_pruning_outputs/model_lambda_2e-04.pt",
+    "history_path": "/content/self_pruning_outputs/history_lambda_2e-04.csv",
+    "gate_histogram_path": "/content/self_pruning_outputs/gate_hist_lambda_2e-04.png"
+  },
+  {
+    "lambda_sparse": 0.0005,
+    "best_epoch": 2,
+    "best_hard_test_accuracy": 19.3,
+    "soft_test_accuracy": 51.64,
+    "hard_test_accuracy": 13.02,
+    "sparsity_level": 99.79780128705148,
+    "mean_gate": 0.00028375533293001354,
+    "pruned_gates": 818821,
+    "total_gates": 820480,
+    "checkpoint_path": "/content/self_pruning_outputs/model_lambda_5e-04.pt",
+    "history_path": "/content/self_pruning_outputs/history_lambda_5e-04.csv",
+    "gate_histogram_path": "/content/self_pruning_outputs/gate_hist_lambda_5e-04.png"
+  }
+]

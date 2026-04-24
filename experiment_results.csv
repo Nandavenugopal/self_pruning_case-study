@@ -1,0 +1,5 @@
+lambda_sparse,best_epoch,best_hard_test_accuracy,soft_test_accuracy,hard_test_accuracy,sparsity_level,mean_gate,pruned_gates,total_gates,checkpoint_path,history_path,gate_histogram_path
+0.0,20,54.78,54.55,54.78,7.787270865834634,0.4316205084323883,63893,820480,/content/self_pruning_outputs/model_lambda_0.pt,/content/self_pruning_outputs/history_lambda_0.csv,/content/self_pruning_outputs/gate_hist_lambda_0.png
+0.0001,2,29.49,49.4,24.79,99.28151813572543,0.0009576102602295578,814585,820480,/content/self_pruning_outputs/model_lambda_1e-04.pt,/content/self_pruning_outputs/history_lambda_1e-04.csv,/content/self_pruning_outputs/gate_hist_lambda_1e-04.png
+0.0002,4,30.32,51.12,25.16,99.50358326833073,0.0005074795335531235,816407,820480,/content/self_pruning_outputs/model_lambda_2e-04.pt,/content/self_pruning_outputs/history_lambda_2e-04.csv,/content/self_pruning_outputs/gate_hist_lambda_2e-04.png
+0.0005,2,19.3,51.64,13.02,99.79780128705148,0.00028375533293001354,818821,820480,/content/self_pruning_outputs/model_lambda_5e-04.pt,/content/self_pruning_outputs/history_lambda_5e-04.csv,/content/self_pruning_outputs/gate_hist_lambda_5e-04.png
